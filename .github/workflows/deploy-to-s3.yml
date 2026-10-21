@@ -1,0 +1,17 @@
+name: Deploy app on s3 bucket
+
+on: push
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: "configure aws credentials"
+        uses: aws-actions/configure-aws-credentials@v6
+        with: 
+            aws-access-key-id:  ${{}}
+            aws-secret-access-key:  ${{}}
+            aws-region: ${{}}
