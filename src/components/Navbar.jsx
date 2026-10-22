@@ -14,7 +14,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
 
         {/* Logo */}
         <h1 className="text-2xl font-bold gradient-text cursor-pointer">
-          Vikas Kumar
+          Vikas 
         </h1>
 
         {/* Desktop Menu */}
